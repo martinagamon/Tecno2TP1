@@ -198,7 +198,7 @@ class Figuras{
         fill(lerpedColor4f);
         noStroke();
         vertex(this.rectX + 433, this.rectY + 151);
-        bezierVertex(this.rectX + 428, this.rectY + 189+sin(variadorGrave*0.05)*30, this.rectX + 396, this.rectY + 304, this.rectX + 255, this.rectY + 369);
+        bezierVertex(this.rectX + 428, this.rectY + 189+sin(variador*0.05)*30, this.rectX + 396, this.rectY + 304, this.rectX + 255, this.rectY + 369);
         bezierVertex(this.rectX + 126, this.rectY + 435, this.rectX + 23, this.rectY + 503, this.rectX + 23, this.rectY + 496);
         bezierVertex(this.rectX + 18, this.rectY + 488, this.rectX + 148, this.rectY + 422, this.rectX + 296, this.rectY + 312);
         bezierVertex(this.rectX + 416, this.rectY + 224+sin(variador*0.05)*6, this.rectX + 434, this.rectY + 138, this.rectX + 433, this.rectY + 151);
