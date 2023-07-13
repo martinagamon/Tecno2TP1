@@ -76,8 +76,7 @@ class Figuras{
       this.shadowOffsetY = 5;
       this.shadowBlur = 10;
       this.shadowColor = 'rgba(0, 0, 0, 0.5)';
-       
-      this.figuraContainer = document.querySelector('.figura-container');
+    
     }
   
     updateColorInterpolation() {
