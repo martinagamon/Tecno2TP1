@@ -41,7 +41,7 @@ let level;
 let randomValue;
 let claseActual = "Figura";
 let tiempoRuidoFondo = 0;
-let duracionRuidoFondo = 10000;
+let duracionRuidoFondo = 8000;
 
 
 function preload() {
